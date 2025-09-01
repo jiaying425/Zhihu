@@ -17,7 +17,7 @@ import dashscope
 from dashscope.api_entities.dashscope_response import Role
 # 从环境变量中，获取 DASHSCOPE_API_KEY
 api_key = os.environ.get('DASHSCOPE_API_KEY')
-dashscope.api_key = 'sk-faa3f40b353441f3b919943c9160e5e1'
+dashscope.api_key = api_key
 
 # 通过第三方接口获取数据库服务器状态
 def get_current_status():
